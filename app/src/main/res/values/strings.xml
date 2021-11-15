@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PasswordKeeper</string>
+    <string-array name="role">
+        <item>Close friend</item>
+        <item>Family member</item>
+    </string-array>
+    <string name="title_activity_user_acc">userAcc</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

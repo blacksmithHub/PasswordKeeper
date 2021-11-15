@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#404040"
+    tools:context="com.example.isiahlibor.passwordkeeper.insert">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtapp"
+            android:layout_margin="20dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="App" />
+
+        <EditText
+            android:background="@drawable/text"
+            android:id="@+id/txtusername"
+            android:textAlignment="center"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Username" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Password"
+            android:textAlignment="center"
+            android:ems="10"
+            android:background="@drawable/text"
+            android:inputType="numberPassword" />
+
+        <Button
+            android:id="@+id/btnsee1"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="back" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtconfirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:background="@drawable/text"
+                android:hint="Confirm password"
+                android:textAlignment="center"
+                android:inputType="numberPassword" />
+
+            <Button
+                android:id="@+id/btnsee2"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="back" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnaction"
+            android:layout_width="150dp"
+            android:layout_margin="20dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn"
+            android:textColor="#ffffff"
+            android:text="add" />
+
+        <Button
+            android:id="@+id/btnback"
+            android:background="@drawable/btn"
+            android:layout_width="150dp"
+            android:textColor="#ffffff"
+            android:layout_height="40dp"
+            android:text="back" />
+
+    </LinearLayout>
+
+</RelativeLayout>
